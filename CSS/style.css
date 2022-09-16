@@ -1,0 +1,73 @@
+:root{
+    --page-1-color: steelblue;
+    --page-2-color: teal;
+    --page-3-color: tan;
+    --page-4-color: slateblue;
+    --animate-speed: 1s;
+}
+body{
+    overflow: hidden;
+color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    line-height: 1.4;
+}
+#page-1{background: #333 url('../IMG/tie-690084_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;}
+#page-2{background: #333 url('../IMG/office-865091_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; }
+#page-3{ background: #333 url('../IMG/computer-336628_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;}
+#page-4{background: #333 url('../IMG/entrepreneur-593358_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; } 
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rem;
+}
+.page h1{
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+.page p{
+    font-family: monospace;
+    font-size: 1rem;
+
+}
+.btn{
+    display: inline-block;
+    background: white;
+    color: black;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn-dark{
+    background: black;
+    color: white;
+}
+
+.btn-dark:hover{
+background: white;
+color: black;
+}
